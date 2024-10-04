@@ -1,0 +1,246 @@
+/* styles.css */
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 55vh;
+    background-color: #1f2937;
+    color: white;
+
+
+}
+
+h1{ 
+    margin-top: 1%;
+    margin-left: 10%;
+
+}
+
+h2{ 
+    margin-top: 1%;
+    margin-left: 40%;
+    font-weight: lighter;
+    color: #E5E7EB;
+    
+    
+}
+
+h3{ 
+    margin-top: 10%;
+    margin-left: -75%;
+
+}
+
+.destaque {
+    font-size: 48px; 
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-left: -1%;
+}
+
+.destaque2 {
+    font-size: 18px; 
+    color: #E5E7EB;
+}
+
+.h3-image {
+    width: 450px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-left: 160%; /* Espaço entre a imagem e o texto */
+    margin-top: -50%;                                                           
+}
+
+#conteiner {
+
+    color:  #1f2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    height: 20vh;
+
+
+    
+}
+
+.imagem-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se não houver espaço */
+    justify-content: center; /* Centraliza os itens */
+    margin-top: 20px; /* Espaço acima do grid */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do contêiner */
+
+}
+
+.imagem-box {
+    flex: 1 1 200px; /* Cresce, encolhe e tem um tamanho base de 200px */
+    margin: 10px; /* Espaço entre os blocos */
+    text-align: center; /* Centraliza o texto */
+
+    
+}
+
+
+.imagem{
+
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: 15%;
+    margin-top: 2%;
+    border: 3px solid blue;
+    border-radius: 8px;
+    margin: 0 auto;
+
+}
+
+.imagem2{
+
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: 15%;
+    margin-top: 2%;
+    border: 3px solid blue;
+    border-radius: 8px;
+    margin: 0 auto;
+
+}
+
+.imagem3{
+
+    width: 120px;
+    height: auto;
+    display: block;
+    margin-left: 15%;
+    margin-top: 2%;
+    border: 3px solid blue;
+    border-radius: 8px;
+    margin: 0 auto;
+
+}
+
+.imagem4{
+
+    width: 120px;
+    height: auto;
+    display: block;
+    margin-left: 15%;
+    margin-top: 2%;
+    border: 3px solid blue;
+    border-radius: 8px;
+    margin: 0 auto;
+
+}
+
+p{
+
+    font-size: 18px; 
+    color: #1f2937;
+    font-weight: normal;
+    
+
+}
+
+#nova-secao {
+    
+    background-color: #f9f9f9; 
+    margin: 20px auto; 
+    padding: 0px; 
+    text-align: center; 
+    width: 100%; 
+
+}
+
+.tipo1 {
+
+font-size: 36px;
+color: #1f2937;
+font-style: italic;
+background-color: #E5E7EB;
+
+}
+
+.tipo3 {
+    display: block; /* Faz o autor ocupar uma linha separada */
+    margin-left: 600px; 
+    margin-top: -10px;
+}
+
+.tipo4{
+
+    background-color: #3882f6;
+    display: flex ;
+    color: #E5E7EB;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    border-width: 50px; 
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 150px;
+    align-items: center;
+}
+
+.botao{
+
+    color: #E5E7EB;
+    background-color: #3882f6;
+    display: block;
+    border: 3px solid #E5E7EB;
+    border-radius: 8px;
+    text-align: left;
+    padding: 10px; /* Para adicionar um pouco de espaço interno */
+    margin: 10px; /* Para dar espaço ao redor */
+    cursor: pointer; /* Muda o cursor para indicar que é interativo */
+
+}
+
+.tipo4 span {
+    margin-right: 70px; /* Empurra o botão para a direita */
+}
+
+
+.footer{
+
+background-color: #1f2937;
+color: #f9faf8;
+display: flex;
+margin-top: 200px;
+justify-content: center;
+padding:30%;
+width: 1032%;
+margin-left: -800%;
+
+}
+
+#nova-secao2{
+    margin-left: 20%;
+
+
+}
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+    
